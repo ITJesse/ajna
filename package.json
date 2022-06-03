@@ -1,9 +1,9 @@
 {
-  "name": "ajna",
+  "name": "ajna-fixed",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/niconiahi/ajna.git"
+    "url": "git+https://github.com/ITJesse/ajna.git"
   },
   "author": {
     "name": "Nicolas Accetta",

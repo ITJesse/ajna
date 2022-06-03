@@ -1,15 +1,15 @@
 import React, { FC } from "react"
 
+import { INITIAL_VALUES } from "../lib/constants"
 // lib
 import { PaginationProvider } from "../lib/providers/PaginationProvider"
-import { INITIAL_VALUES } from "../lib/constants"
 
 export type PaginationProps = {
   onPageChange: (page: number) => void
   currentPage: number
   pagesCount: number
   isDisabled?: boolean
-  children?: React.ReactNode 
+  children?: React.ReactNode
 }
 
 export const Pagination: FC<PaginationProps> = ({
